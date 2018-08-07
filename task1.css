@@ -11,6 +11,7 @@ body{
 }
 .content{
 	border-left: 1px #dfe5e8 solid;
+	font-family: 
 }
 .basic{
 	display: inline-block;
@@ -101,6 +102,7 @@ body{
 .content #sub{
 	font-size: 24px;
 	color: #5f727f;
+	font-family: SourceSansPro;
 }
 .content>p{
 	color: #5f727f;
@@ -110,9 +112,12 @@ body{
 .content ul li{
 	padding: 10px;
 	color:  #5f727f;
+	font-family: SourceSansPro;
+	font-size: 16px;
 }
 .content ul li i{
 	padding-right: 7px;
+
 }
  #spe{
 	background-color: #f4f6f7;
@@ -136,14 +141,14 @@ body{
 .new{
 	position: absolute;
     top: -22px;
-    background: #F80;
+    background: #00bcd4;
     color: #fff;
     text-transform: uppercase;
     z-index: 2;
     padding: 2px 5px;
-    font-size: 9px;
-    border-radius: 2px;
-    right: 120px;
+    font-size: 20px;
+    border-radius: 100px;
+    right: 100px;
     font-weight: 700;
 }
 .life .title{
