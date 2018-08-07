@@ -1,0 +1,167 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+}
+#price{
+	text-align: center;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+.content{
+	border-left: 1px #dfe5e8 solid;
+}
+.basic{
+	display: inline-block;
+	font-family: Myriad Pro;
+	margin: 0;
+}
+.basic-inner{
+	background-color: #ffffff;
+	margin: 0 auto;
+	min-width: 400px;
+	max-width: 100%;
+	position: relative;
+}
+.title{
+	background-color: #00bcd4;
+	height: 275px;
+	position: relative;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+.title>h3{
+
+  	font-size: 36px;
+  	text-transform: uppercase;
+  	font-weight: 400;
+  	padding: 150px;
+    padding-left: 30px;
+    text-align: left;
+}
+.title .price{
+	position: absolute;
+	background: #393d50;
+	height: 122px;
+	width: 122px;
+	margin: 0 auto;
+	border-radius: 100px;
+	left: 0;
+  	right: 0;
+  	margin-top: -60px;
+}
+.basic .gias{
+	position: absolute;
+	color: #09cfea;
+	font-size: 25px;
+	bottom: 55px;
+	left: 30px;
+}
+.basic .soluong{
+	position: absolute;
+	color: #788492;
+	font-size: 20px;
+	bottom: 33px;
+	left: 28px;
+}
+.advance .gias{
+	position: absolute;
+	color: #1c94ca;
+	font-size: 25px;
+	bottom: 55px;
+	left: 30px;
+}
+.advance .soluong{
+	position: absolute;
+	color: #788492;
+	font-size: 20px;
+	bottom: 33px;
+	left: 28px;
+}
+.life .gias{
+	position: absolute;
+	color: #7264bd;	
+	font-size: 25px;
+	bottom: 55px;
+	left: 30px;
+}
+.life .soluong{
+	position: absolute;
+	color: #788492;
+	font-size: 20px;
+	bottom: 33px;
+	left: 28px;
+}
+.content ul{
+	list-style: none;
+	text-align: left;
+}
+.content #sub{
+	font-size: 24px;
+	color: #5f727f;
+}
+.content>p{
+	color: #5f727f;
+	text-align: left;
+	margin-left: 45px;
+}
+.content ul li{
+	padding: 10px;
+	color:  #5f727f;
+}
+.content ul li i{
+	padding-right: 7px;
+}
+ #spe{
+	background-color: #f4f6f7;
+}
+.button{
+	padding: 5px 0;
+	text-align: center;
+	border-radius: 10px;
+	width: 150px;
+	height: 50px;
+}
+.button a{
+	background-color: #b6c6c9;
+  	padding: 10px 30px;
+ 	 color: #fff;
+ 	 text-transform: uppercase;
+ 	 font-weight: 700;
+  	text-decoration: none;
+ 	 border-radius: 10px;
+}
+.new{
+	position: absolute;
+    top: -22px;
+    background: #F80;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2;
+    padding: 2px 5px;
+    font-size: 9px;
+    border-radius: 2px;
+    right: 120px;
+    font-weight: 700;
+}
+.life .title{
+	background-color: #7264bd;
+}
+.advance .button a{
+	background-color: #2c2e3d;
+}
+.advance .title{
+	background-color: #1c94ca;
+}
+}
+
+#tow{
+	position: absolute;
+    color: #fff;
+    font-size: 14px;
+    font-family: [SourceSansPro];
+    margin-top: -180px;
+    padding-left: 30px;
+}
