@@ -5,88 +5,97 @@
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="task1.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
-
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada|Source+Sans+Pro" rel="stylesheet">
 </head>
 <body>
-	<div id="price">
-		<div class="basic">
-			<div class="basic-inner">
-				<div class="title">
-					<div class="price">
-						<span class="gias">$99</span><span class="soluong">/person</span>
+	<div class="price">
+		<section class="price-item basic">
+				<div class="price-item-title">
+					<div class="price-item-price">
+						<span class="cost">$99</span><span class="unit">/person</span>
 					</div>
-					<h3><p><strong>BASIC</strong><br>PRICE PLAN</p></h3>
+					<div class="price-item-slogan">
+						<div><h3><strong>BASIC</strong></h3></div>
+						<div>PRICE PLAN</div>
+					</div>
+					
 				</div>
-				<div class="content">	
-					<p id="sub">Subtitle goes here</p>
+				<div class="price-item-content">	
+					<p class="sub">Subtitle goes here</p>
 					<p>Subtitle second line goes here lorem ipsum *</p>
 					<ul>
-						<li id="spe"><i class="far fa-check-square"></i>Lorem ipsum dolor sit amet</li>
+						<li ><i class="far fa-check-square"></i>Lorem ipsum dolor sit amet</li>
 						<li><i class="far fa-check-square"></i>Consectetur adipisicing elit sed do </li>
-						<li id="spe"><i class="far fa-check-square"></i>Eiusmod tempor incididunt ut </li>
+						<li ><i class="far fa-check-square"></i>Eiusmod tempor incididunt ut </li>
 						<li><i class="far fa-check-square"></i>Labore et dolore magna </li>
-						<li id="spe"><i class="far fa-check-square"></i>Enim ad minim veniam quis nostrud</li>
+						<li ><i class="far fa-check-square"></i>Enim ad minim veniam quis nostrud</li>
 					</ul>
-				</div>
-				<div class="button">
-					<a href="#">Order</a>
-				</div>
-			</div>
-		</div>
-		<!--end basic-->
-		<div class="advance">
-			<div class="basic-inner">
-				<div class="new">New</div>
-				<div class="title">
-					<div class="price">
-						<span class="gias">$199</span><span class="soluong">/person</span>
-					</div>
-					<h3><span><strong>ADVANCED</strong></span><br>PRICE PLAN</h3>
-					<p id="tow">This is the very best price/quantity advanced plan *</p>
-				</div>
 
-				<div class="content">
-					<p id="sub">Subtitle goes here</p>
-					<p>Subtitle second line goes here lorem ipsum *</p>
-					<ul>
-						<li id="spe"><i class="far fa-check-square"></i>Lorem ipsum dolor sit amet</li>
-						<li><i class="far fa-check-square"></i>Consectetur adipisicing elit sed do </li>
-						<li id="spe"><i class="far fa-check-square"></i>Eiusmod tempor incididunt ut </li>
-						<li><i class="far fa-check-square"></i>Labore et dolore magna </li>
-						<li id="spe"><i class="far fa-check-square"></i>Enim ad minim veniam quis nostrud</li>
-					</ul>
-				</div>
-				<div class="button">
+				<div class="price-item button">
 					<a href="#">Order</a>
 				</div>
 			</div>
-		</div>
-		<!--end advance-->
-		<div class="life">
-			<div class="basic-inner">
-				<div class="title">
-					<div class="price">
-						<span class="gias">$1999</span><span class="soluong">/person</span>
+		</section>
+		<!--end basic-->
+		<section class="price-item advance">
+			<div class="price-item-title">
+					<div class="price-item-price">
+						<span class="cost adv">$199</span><span class="unit">/person</span>
 					</div>
-					<h3><span><strong>LIFE</strong></span><br>TARIFF</h3>
+					<div class="price-item-slogan">
+						<div><h3><strong>ADVANCED</strong></h3></div>
+						<div>PRICE PLAN</div>
+
+					</div>
+					<div class="icon">
+						<img src="new1.png">
+					</div>
+					<div class="price-item-spe"><p>This is the very best price/quantity advanced plan *</p></div>
 				</div>
-				<div class="content">
-					<p id="sub">Subtitle goes here</p>
+				<div class="price-item-content">	
+					<p class="sub">Subtitle goes here</p>
 					<p>Subtitle second line goes here lorem ipsum *</p>
 					<ul>
-						<li id="spe"><i class="far fa-check-square"></i>Lorem ipsum dolor sit amet</li>
+						<li ><i class="far fa-check-square"></i>Lorem ipsum dolor sit amet</li>
 						<li><i class="far fa-check-square"></i>Consectetur adipisicing elit sed do </li>
-						<li id="spe"><i class="far fa-check-square"></i>Eiusmod tempor incididunt ut </li>
+						<li ><i class="far fa-check-square"></i>Eiusmod tempor incididunt ut </li>
 						<li><i class="far fa-check-square"></i>Labore et dolore magna </li>
-						<li id="spe"><i class="far fa-check-square"></i>Enim ad minim veniam quis nostrud</li>
+						<li ><i class="far fa-check-square"></i>Enim ad minim veniam quis nostrud</li>
 					</ul>
-				</div>
-				<div class="button">
+
+				<div class="price-item button">
 					<a href="#">Order</a>
 				</div>
 			</div>
-		</div>
+		</section>
+		<!--end advance-->
+		<section class="price-item life">
+			<div class="price-item-title">
+					<div class="price-item-price">
+						<span class="cost lif">$1999</span><span class="unit">/person</span>
+					</div>
+					<div class="price-item-slogan">
+						<div><h3><strong>LIFE</strong></h3></div>
+						<div>TARIFF</div>
+					</div>
+				</div>
+				<div class="price-item-content">	
+					<p class="sub">Subtitle goes here</p>
+					<p>Subtitle second line goes here lorem ipsum *</p>
+					<ul>
+						<li ><i class="far fa-check-square"></i>Lorem ipsum dolor sit amet</li>
+						<li><i class="far fa-check-square"></i>Consectetur adipisicing elit sed do </li>
+						<li ><i class="far fa-check-square"></i>Eiusmod tempor incididunt ut </li>
+						<li><i class="far fa-check-square"></i>Labore et dolore magna </li>
+						<li ><i class="far fa-check-square"></i>Enim ad minim veniam quis nostrud</li>
+					</ul>
+
+				<div class="price-item button">
+					<a href="#">Order</a>
+				</div>
+			</div>
+		</section>
 		<!--end life-->
 	</div>
 </body>
