@@ -9,6 +9,7 @@ body{
 }
 section{
 	width: 400px;
+	box-sizing: border-box;
 }
 .price{
 	padding:80px;
@@ -24,10 +25,10 @@ section{
 .price-item-title{
 	background-color: #00bcd4;
 	height: 275px;
+	width: 400px;	
 	position: relative;
-	text-align: center;
 	color: #ffffff;
-	z-index: -1;
+	box-sizing: border-box;
 }
 .price-item-slogan{
 	position: absolute;
@@ -43,13 +44,17 @@ section{
 	height: 122px;
 	width: 122px;
 	border-radius: 100%;
-	 top: -65px;
-    left: 50px;
+	top: -23%;
+    left: 10%;	
+}
+.price-item-content .basic{
+	border-right: none;
 }
 .icon{
-	top: -38px;
     position: absolute;
-    left: 154px;
+    left: 36%;
+	top: -15%;
+
 }
 .cost{
 	position: absolute;
@@ -68,6 +73,13 @@ section{
 .price-item-content{
 	border: 1px solid #dfe5e8; 
 	display: flow-root;
+	border-right: none;
+}
+.price-item-content .bor{
+	border-right: 1px solid #dfe5e8;
+	border-top: none;
+    border-left: none;
+    border-bottom: none;
 }
 .price-item-content ul{
 	list-style: none;
@@ -99,8 +111,8 @@ section{
 	background-color: #f4f6f7;
 }
 .button{
-	margin: 50px 0;
-
+	padding-top: 20px;
+    padding-bottom: 50px;
 }
 .button a{
 	background-color: #b6c6c9;
@@ -111,9 +123,11 @@ section{
   	text-decoration: none;
  	 border-radius: 30px;
 	margin-right: 210px;
+	transition: width 1s;
 }
 .button a:hover{
 	background-color:#2c2e3d;
+	width: 50px;
 }
 .new{
 	position: absolute;
