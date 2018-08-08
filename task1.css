@@ -88,6 +88,8 @@ section{
 	color:  #5f727f;
 	font-family:'Source Sans Pro', sans-serif;
 	font-size: 16px;
+	padding-left: 40px;
+    margin-left: -40px;
 }
 .price-item-content ul li i{
 	padding-right: 7px;
