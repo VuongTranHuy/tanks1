@@ -34,14 +34,16 @@ section{
   	font-size: 30px;
   	font-weight: 400;
     text-align: left;
-    transform: translate(11%,5px);
+    transform: translate(12%,168px);
+
 }
 .price-item-price{
 	background: #393d50;
 	height: 122px;
 	width: 122px;
 	border-radius: 100%;
-	transform: translate(50%,-51%);
+	transform: translate(50%,-50%);
+	position: absolute;
 }
 .price-item-content .basic{
 	border-right: none;
@@ -156,6 +158,5 @@ section{
 	font-size: 16px;
 }
 #slogan{
-	position:absolute;
-	bottom:35px;
+	transform: translate(12%,143%);
 }
