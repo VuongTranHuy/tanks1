@@ -1,0 +1,142 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	line-height: 1,5em;
+	box-sizing: border-box;
+	background-color: #cad3d3;
+}
+.container{
+	margin-top:70px;
+	margin-bottom:200px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+section{
+	height: 765px;
+	width: 365px;
+	box-sizing: border-box;
+	margin: 50px;
+}
+.ocean-title{	
+	height: 270px;
+	background-color: #616b82;
+	position: relative;
+}
+.price-title-price{
+	background-color:#ffffff;
+	border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    transform: translate(95%,-50%);
+}
+.price-title-price-number{
+	color:#3c9ef8;
+	text-align: center;
+    transform: translate(0,45%);
+    font-size: 32pt;
+}
+.price-title-price-item{
+	color: #99a9b5;
+	font-size: 16pt;
+	transform: translate(18%,-85%);
+}
+.ocean-title-icon{
+	position: absolute;
+    top: -17px;
+    left: -17px;
+}
+.price-title-slogan{
+	text-align: center;
+	color: #ffffff;
+	font-size: 36pt;
+	transform: translate(0%,-100%);
+}
+.ocean-title-plan{
+	color: #ffffff;
+	transform: translate(20%,-510%);
+}
+.mountain-color{
+	background-color: #2c2e3d;
+}
+.mountain{
+	color:#d74498;
+}
+.forest{
+	color: #32ad1e;
+}
+.content{
+	color: #5f727f;
+	text-align: center;
+	font-size: 14pt;
+	background-color: #ffffff;
+	margin-top: -32px;	
+}
+.content-sub{
+	font-size: 24pt;
+	padding-top: 25px;
+	margin-bottom: 12px;
+}
+.content-SubSecon{
+	padding: 0;
+}
+ul li{
+	list-style: none;
+	height: 34px;
+	padding: 10px 0px;
+	width: 365px;
+    transform: translate(-40px,10px);
+}
+li:nth-child(odd) {
+    background-color:#f4f6f7;
+}
+.button{
+	height: 150px;
+	background-color: #ffffff;
+	margin-top: -9px;
+	position: relative;
+}
+input{
+	height: 50px;
+	width: 170px;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 19pt;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ffffff;
+}
+.button-ocean{
+	color: #2196f7;
+	border: 1px solid #2196f7;	
+}
+.button-mmountain{
+	color: #d74498;
+	border: 1px solid #d74498;
+}
+.button-forest{
+	color: #32ad1e;
+	border: 1px solid #32ad1e;
+}
+.button-ocean:hover{
+	background-color: #2196f7;
+	color: #ffffff;
+	transition: background-color 2s;
+	border: none;
+}
+.button-mmountain:hover{
+	background-color: #d74498;
+	color: #ffffff;
+	transition: background-color 2s;
+	border: none;
+}
+.button-forest:hover{
+	background-color: #32ad1e;
+	color: #ffffff;
+	transition: background-color 2s;
+	border: none;
+}
