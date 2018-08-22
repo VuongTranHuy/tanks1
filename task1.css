@@ -6,9 +6,11 @@ body{
 	font-size: 16px;
 	line-height: 1em;
 	text-align: center;
+	box-sizing: border-box;
 }
 section{
 	width: 400px;
+	box-sizing: border-box;
 }
 .price{
 	padding:80px;
@@ -24,50 +26,66 @@ section{
 .price-item-title{
 	background-color: #00bcd4;
 	height: 275px;
+	width: 400px;	
 	position: relative;
-	text-align: center;
 	color: #ffffff;
-	z-index: -1;
+	box-sizing: border-box;
 }
 .price-item-slogan{
-	position: absolute;
   	font-size: 30px;
   	font-weight: 400;
-    left: 50px;
-    bottom: 50px;
     text-align: left;
+    transform: translate(12%,153px);
+
 }
 .price-item-price{
-	position: absolute;
 	background: #393d50;
 	height: 122px;
 	width: 122px;
 	border-radius: 100%;
-	 top: -65px;
-    left: 50px;
+	transform: translate(36%,-50%);
+	position: absolute;
+}
+.price-item-content .basic{
+	border-right: none;
 }
 .icon{
-	 top: -34px;
     position: absolute;
-    left: 154px;
+    left: 40%;
+	top: -15%;
+
 }
-.cost{
+.price-item-price-cost{
 	position: absolute;
 	color: #09cfea;
 	font-size: 25px;
 	bottom: 60px;
 	left: 30px;
 }
-.unit{
+.price-item-price-unit{
 	position: absolute;
 	color: #788492;
 	font-size: 20px;
 	bottom: 33px;
 	left: 28px;
 }
+.price-item-price-content{
+	margin: auto;
+}
+/*span{
+	display: block;
+	margin: auto;
+}*/
 .price-item-content{
 	border: 1px solid #dfe5e8; 
 	display: flow-root;
+	border-right: none;
+}
+.price-item-content .bor{
+	border-right: 1px solid #dfe5e8;
+	border-top: none;
+    border-left: none;
+    border-bottom: none;
 }
 .price-item-content ul{
 	list-style: none;
@@ -88,21 +106,21 @@ section{
 	color:  #5f727f;
 	font-family:'Source Sans Pro', sans-serif;
 	font-size: 16px;
-	padding-left: 40px;
+	padding-left: 47px;
     margin-left: -40px;
 }
 .price-item-content ul li i{
-	padding-right: 7px;
+	padding-right: 14px;
 
 }
  li:nth-child(odd){
 	background-color: #f4f6f7;
 }
 .button{
-	margin: 50px 0;
-
-}
-.button a{
+	padding-top: 47px;
+    padding-bottom: 60px;
+ }
+.price-item.button a{
 	background-color: #b6c6c9;
   	padding: 10px 30px;
  	 color: #fff;
@@ -110,23 +128,11 @@ section{
  	 font-weight: 700;
   	text-decoration: none;
  	 border-radius: 30px;
-	margin-right: 210px;
+	margin-right: 197px;
+	transition: background-color 0.5s;
 }
-.button a:hover{
+.price-item.button a:hover{
 	background-color:#2c2e3d;
-}
-.new{
-	position: absolute;
-    top: -22px;
-    background: #00bcd4;
-    color: #fff;
-    text-transform: uppercase;
-    z-index: 2;
-    padding: 2px 5px;
-    font-size: 20px;
-    border-radius: 100px;
-    right: 100px;
-    font-weight: 700;
 }
 .life .price-item-title{
 	background-color: #7264bd;
@@ -134,23 +140,24 @@ section{
 .advance .price-item-title{
 	background-color: #1c94ca;
 }
-.advance .price-item-slogan{
+/*.advance .price-item-slogan{
 	padding-bottom: 30px;
 	bottom: 70px;
-}
+}*/
 .advance .title{
 	background-color: #1c94ca;
 }
-.price-item-price .adv{
+.price-item-price-cost.adv{
 	color:#2183b5;
 }
-.price-item-price .lif{
+.price-item-price-cost.lif{
 	color:#7e71d0;
 }
 .price-item-spe{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 14px;
-	position: absolute;
-    left: 39px;
-    bottom: 37px;
+	font-size: 16px;
+	margin-top: 25px;
+}
+#slogan{
+	transform: translate(12%,109%);
 }
