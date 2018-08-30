@@ -19,13 +19,148 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro" rel="stylesheet">
 	<!-- Style.css-->
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-	<div class="super_container">
-		<header class="header">
-			
-		</header>
-	</div>
-	<h1>Hello world </h1>
+	<header>
+		<ul>
+			<li><a href="#">HOMEPAGEG</a></li>
+			<li><a href="#">PAGES</a></li>
+			<li><a href="#">BLOG</a></li>
+			<li><a href="#">PORTFOLIOS</a></li>
+			<li><a href="#">
+				<span>THE</span>
+				<img src="images/logo.png" class="logo">
+				<span>GEM</span>
+			</a></li>
+			<li><a href="#">SHOP</a></li>
+			<li><a href="#">FEATURES</a></li>
+			<li><a href="#">ELEMENTS</a></li>
+			<li><a href="#">
+				<img src="images/flag.png">
+			</a></li>
+			<li><a href="#">
+				<img src="images/search.png">
+			</a></li>
+			<li><a href="#">
+				<img src="images/cat.png">
+			</a></li>
+		</ul>
+	</header>
+	<!-- Slider -->
+	<section >
+		<div class="w3-display-container mySlides">
+  			<img src="images/slide.png" style="width:100%;height: 600px">
+  			<div class="w3-display-middle w3-large w3-container w3-padding-16">
+   				 <h2>TRUST THE</h2>
+    			<h1><strong>PROFESSIONALS</strong></h1>
+    			<p>TheGem is a perfect toolbox for building business</p><p>websites of any size and scope</p>
+    			<button type="button">PURCHASE NOW</button>
+    			<button type="button">Discover More</button>
+  			</div>
+		</div>
+
+		<div class="w3-display-container mySlides">
+  			<img src="images/slide.png" style="width:100%;height: 600px">
+  			<div class="w3-display-middle w3-large w3-container w3-padding-16">
+   				 <h2>TRUST THE</h2>
+    			<h1><strong>PROFESSIONALS</strong></h1>
+    			<p>TheGem is a perfect toolbox for building business</p><p>websites of any size and scope</p>
+    			<button type="button">PURCHASE NOW</button>
+    			<button type="button">Discover More</button>
+  			</div>
+		</div>
+		<div class="w3-display-container mySlides">
+  			<img src="images/slide.png" style="width:100%;height: 600px">
+  			<div class="w3-display-middle w3-large w3-container w3-padding-16">
+   				 <h2>TRUST THE</h2>
+    			<h1><strong>PROFESSIONALS</strong></h1>
+    			<p>TheGem is a perfect toolbox for building business</p><p>websites of any size and scope</p>
+    			<button type="button">PURCHASE NOW</button>
+    			<button type="button">Discover More</button>
+  			</div>
+		</div>
+		<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)"><i class="fas fa-arrow-left"></i></button>
+		<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)"><i class="fas fa-arrow-right"></i></button>
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+  		showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+  			var i;
+  			var x = document.getElementsByClassName("mySlides");
+  			if (n > x.length) {slideIndex = 1}    
+  			if (n < 1) {slideIndex = x.length}
+  			for (i = 0; i < x.length; i++) {
+     			x[i].style.display = "none";  
+  			}
+  			x[slideIndex-1].style.display = "block";  
+		}
+	</script>
+	</section>
+	<!-- Text-->
+	<section>
+		<div class="text-content">
+			<h4>LOREM ISPSUM</h4>
+			<h2><strog>DOLOR SIT AMET</strog></h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+			<p>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex ea </p>
+		</div>
+	</section>
+	<!-------------->
+	<section>
+		<div class="flex-item row1">
+			<div class="flex-item lorem">
+				<i class="fas fa-trophy"></i>
+				<h4>LOREM IPSUM</h4>
+				<p>Lorem ipsum dolor sit ametcon sectetur adipisicing </p>
+				<p>elit, sed doiusmod tempor incidi labore et dolore </p>
+				<p>magna aliqua.</p>
+			</div>
+			<div class="flex-item lorem">
+				<i class="fas fa-trophy"></i>
+				<h4>LOREM IPSUM</h4>
+				<p>Lorem ipsum dolor sit ametcon sectetur adipisicing </p>
+				<p>elit, sed doiusmod tempor incidi labore et dolore </p>
+				<p>magna aliqua.</p>
+			</div>
+			<div class="flex-item lorem">
+				<i class="fas fa-lightbulb"></i>
+				<h4>LOREM IPSUM</h4>
+				<p>Lorem ipsum dolor sit ametcon sectetur adipisicing </p>
+				<p>elit, sed doiusmod tempor incidi labore et dolore </p>
+				<p>magna aliqua.</p>
+			</div>
+		</div>
+		<div class="flex-item row2">
+			<div class="flex-item lorem">
+				<i class="fas fa-trophy"></i>
+				<h4>LOREM IPSUM</h4>
+				<p>Lorem ipsum dolor sit ametcon sectetur adipisicing </p>
+				<p>elit, sed doiusmod tempor incidi labore et dolore </p>
+				<p>magna aliqua.</p>
+			</div>
+			<div class="flex-item lorem">
+				<i class="fas fa-clipboard-check"></i>
+				<h4>LOREM IPSUM</h4>
+				<p>Lorem ipsum dolor sit ametcon sectetur adipisicing </p>
+				<p>elit, sed doiusmod tempor incidi labore et dolore </p>
+				<p>magna aliqua.</p>
+			</div>
+			<div class="flex-item lorem">
+				<i class="fas fa-trophy"></i>
+				<h4>LOREM IPSUM</h4>
+				<p>Lorem ipsum dolor sit ametcon sectetur adipisicing </p>
+				<p>elit, sed doiusmod tempor incidi labore et dolore </p>
+				<p>magna aliqua.</p>
+			</div>
+		</div>
+		</div>
+	</section>
 </body>
 </html>
