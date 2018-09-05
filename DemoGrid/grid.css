@@ -25,7 +25,7 @@ html {
 *,
 *::before,
 *::after {
-	box-sizing: inherit;
+	box-sizing:border-box;
 }
 h1,
 h2,
@@ -67,7 +67,7 @@ h6{
 .col-6, 
 .col-7, 
 .col-8, 
-.col-9,{
+.col-9 {
     position: relative;
     width: 100%;
     min-height: 1px;
@@ -127,6 +127,10 @@ h6{
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+ 	min-height: 120px;
+}
+.align-items-start{
+	align-items: flex-start!important:;
 }
 .row>.col,[class*="col-"]{
 	padding: 15px 0;
