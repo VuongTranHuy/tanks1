@@ -130,16 +130,23 @@ h6{
  	min-height: 120px;
 }
 .align-items-start{
-	align-items: flex-start!important:;
+	align-items: flex-start !important:;
 }
 .row>.col,[class*="col-"]{
-	padding: 15px 0;
-    background-color: rgba(86,61,124,.15);
-    border: 1px solid rgba(86,61,124,.2);
-    text-align: center;
+	padding: 0 15px;
+    text-align:left;
 }
 .col{
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
+}
+
+.demo-align-row {
+	min-height: 120px;
+}
+
+.demo-align-row.row > [class*="col"] {
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
 }
