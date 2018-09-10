@@ -165,22 +165,29 @@ footer{
 	flex-direction: row;
 	padding-bottom: 50px;
 }
-img{
+.img-logo-footer{
 	padding-top: 20px;
     padding-bottom: 50px;
 }
+.img-useful{
+	margin-left: -50px;
+    margin-right: 10px;
+}
+ul{
+	list-style: none;
+}
 ul li {
 	padding: 12px;
+
 }
 ul li a{
 	color: #646e7a;
 }
 ul li a:hover{
 	color: #2fc5b0;
-	
 }
-ul li:hover{
-	list-style-image:url(li.png);
+ul li:hover img{
+	background-image: url(eclip-hover.png);
 }
 .new-form{
 	display:flex;
@@ -245,7 +252,8 @@ i{
 	clear: both;
 }
 .footer-coppyright{
-	width: 100%;
+	margin: 0 -9999px;
 	background-color: #181828;
-	height: 100px;
+	height: 102px;
+	border: 1px solid #313646;
 }
