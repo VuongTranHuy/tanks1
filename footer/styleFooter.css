@@ -177,7 +177,7 @@ ul{
 	list-style: none;
 }
 ul li {
-	padding: 12px;
+	padding-bottom: 22px;
 
 }
 ul li a{
@@ -226,7 +226,7 @@ span{
 #item-second{
 	border-bottom: none;
 	float: right;
-	padding-top: 15px;
+	margin-top: 15px;
 }
 .item-radius{
 	border-radius: 50%;
@@ -250,6 +250,7 @@ i{
 }
 .main-footer{
 	clear: both;
+	margin-top: 45px;
 }
 .footer-coppyright{
 	margin: 0 -104px;
