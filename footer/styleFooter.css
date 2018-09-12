@@ -146,8 +146,8 @@ h6{
 }
 footer{
 	background-color: #212331;
-	height: 570px;
-	margin: 200px 0;
+	height: 470px;
+	margin: 200px 0 0 0;
     width: 100%;
 }
 #triangle{
@@ -253,8 +253,34 @@ i{
 	margin-top: 45px;
 }
 .footer-coppyright{
-	margin: 0 -104px;
+	margin-bottom: 200px;
+	width: 100%;
 	background-color: #181828;
 	height: 102px;
 	border: 1px solid #313646;
+}
+.footer-coppyright .row>.col-3,.col-6{
+	padding: 30px 0;
+	height: 100px;
+	text-align: center;
+}
+.footer-coppyright ul{
+	display: block;
+}
+.footer-coppyright ul li{
+	float: left;
+	padding: 0 20px;
+	text-align: center;
+	display: inline-block;
+}
+.footer-coppyright ul li img{
+	margin-left: 20px;
+}
+.footer-coppyright ul li a{
+	font-family:'Martel Sans', sans-serif;
+}
+.footer-coppyright i{
+	margin: auto;
+	padding:15px 10px;
+	float: right;
 }
