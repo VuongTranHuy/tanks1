@@ -185,6 +185,7 @@ ul li a{
 }
 ul li a:hover{
 	color: #2fc5b0;
+	transition: 0.5s;
 }
 ul li:hover img{
 	background-image: url(eclip-hover.png);
