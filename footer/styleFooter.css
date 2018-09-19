@@ -287,7 +287,7 @@ i{
 	padding:15px 10px;
 	float: right;
 }
-/*toTop*/
+/*------------------------------------toTop*/
 .toTop-arrow.show{
 	bottom: 1em;
     opacity: 0.6;
@@ -317,6 +317,7 @@ button{
     vertical-align: middle;
     white-space: nowrap;
     outline: none;
+    border-radius: 5px;
 }
 .toTop-arrow::before, .toTop-arrow::after{
 	transform: rotate(-45deg) translate(0, -50%);
