@@ -53,6 +53,10 @@ h6{
 }
 .container-fluid{
 	width: 100%;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .container{
 	width: 1170px;
@@ -134,10 +138,8 @@ h6{
     margin-right: -15px;
     margin-left: -15px;
 }
-.row>.col,[class*="col-"]{
-	padding: 100px  15px 70px 15px;
+.row>.col,[class*="col-"]{;
     text-align:left;
-	
 }
 .col{
     flex-basis: 0;
@@ -146,35 +148,48 @@ h6{
 }
 footer{
 	background-color: #212331;
-	height: 470px;
-	margin: 200px 0 0 0;
-    width: 100%;
 }
-#triangle{
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 8px 0 0 8px;
-	border-color: transparent transparent transparent #007bff;
-	float: left;
-	margin-top: 40px;
-    margin-left: 10px;
-
+.footer-widget{
+	padding-top: 120px;
+	padding-bottom: 100px;
 }
 .footer-title{
-	flex-direction: row;
-	padding-bottom: 50px;
+	position: relative;
+	color: #ffffff;
+}
+.footer-about{
+	position: relative;
+	padding-top: 45px;
+}
+.triangle{
+	border-style: solid;
+    border-width: 8px 0 0 8px;
+    border-color: transparent transparent transparent #007bff;
+    position: absolute;
+    top: 45%;
+}
+.useful{
+	left: 60%;
+}
+.newsletter{
+	left: 56%;
+}
+.recentpost{
+	left: 62%;
 }
 .img-logo-footer{
-	padding-top: 20px;
     padding-bottom: 50px;
+    padding-top: 25px;
 }
-.img-useful{
-	margin-left: -40px;
-    margin-right: 10px;
+ul li .useful{
+	float: left;
+	width: 5px;
+	height: 5px;
+	margin-top: 7px;
 }
 ul{
 	list-style: none;
+	padding-left: 0;
 }
 ul li {
 	padding-bottom: 22px;
@@ -187,74 +202,67 @@ ul li a:hover{
 	color: #2fc5b0;
 	transition: 0.5s;
 }
-ul li:hover img{
-	background-image: url(eclip-hover.png);
+ul li:hover  .useful{
+	background-color: #ffffff;
+	transition: 0.5s;
 }
-.new-form{
-	display:flex;
-	margin-top: 40px;
+.form{
+	padding-top: 40px;
 }
 input{
 	height: 40px;
-	width: 220px;
+	width: 210px;
 	background-color: #181828;
 	border: 1px solid #394050;
 	color:#494a59;
 	padding-left: 15px;
 	text-align: left;
 	border-right: none;
+	border-radius: 2px;
 }
 .button-email{
 	height: 40px;
-	width: 40px;
+	width: 45px;
 	background-color: #394050;
 	border: 1px solid #394050;
 	border-left: none;
+	margin-left: -5px;
+	border-radius: 2px;
 }
-.p-newsletter{
-	color: #4a4b5b;
-	margin-top: 15px;
-}
-span{
-	color: #2fc5b0;
-}
-.item{
-	border-bottom: 1px solid #99a9b5;
-}
-#item-one{
-	padding-bottom: 15px;
-}
-#item-second{
-	border-bottom: none;
-	float: right;
-	margin-top: 15px;
+.footer-item li{
+	display: flex;
 }
 .item-radius{
 	border-radius: 50%;
-	width: 70px;
 	height: 70px;
-	background-color: #99a9b5;
-	float: left;
 	margin-right: 10px;
+	background-color: #99a9b5;
 }
-i{
+.item-radius.recentpost{
+	padding-right: 70px;
+}
+.main-item{
+	display: block;
+	margin-top: -10px;
+}
+i.fa-comments{
 	text-align: center;
-}
-.item-content i{
 	float: right;
 }
-.footer-title a{
-	float: left;
+.footer-item li:nth-child(1){
+	border-bottom: 1px solid #393d50;
+}
+.footer-item li:nth-child(2){
+	padding-top: 15px;
+}
+.recentpost-date{
+	color: #2fc5b0;
 }
 .footer-title span{
 	float: left;
 }
-.main-footer{
-	clear: both;
-	margin-top: 45px;
-}
+/* -----------------footer coppyright -----------------------*/
 .footer-coppyright{
-	margin-bottom: 200px;
 	width: 100%;
 	background-color: #181828;
 	height: 102px;
@@ -266,17 +274,31 @@ i{
 	height: 100px;
 	text-align: left;
 }
+.col-6.menu-coppyright{
+	text-align: center;
+}
+.codextheme{
+	color: #2fc5b0;
+}
+.codextheme:hover{
+	transition: 1s;
+	color: #ffffff;
+}
 .footer-coppyright ul{
 	display: block;
 }
 .footer-coppyright ul li{
-	float: left;
 	padding: 0 10px;
 	text-align: center;
 	display: inline-block;
+	border-right: 2px solid #333146;
 }
-.footer-coppyright ul li img{
-	margin-left: 20px;
+.footer-coppyright ul li:hover a{
+	color: #2fc5b0;
+	transition: 0.5s;
+}
+.footer-coppyright ul li:last-child{
+	border-right: none;
 }
 .footer-coppyright ul li a{
 	font-family:'Martel Sans', sans-serif;
@@ -287,12 +309,12 @@ i{
 	padding:15px 10px;
 	float: right;
 }
-/*------------------------------------toTop*/
-.toTop-arrow.show{
+/*------------------------------------toTop
+.to-top-arrow.show{
 	bottom: 1em;
     opacity: 0.6;
 }
-.toTop-arrow{
+.to-top-arrow{
 	position: fixed;
     right: 1em;
     bottom: -56px;
@@ -319,7 +341,7 @@ button{
     outline: none;
     border-radius: 5px;
 }
-.toTop-arrow::before, .toTop-arrow::after{
+.to-top-arrow::before, .to-top-arrow::after{
 	transform: rotate(-45deg) translate(0, -50%);
     left: 10px;
     position: absolute;
@@ -330,7 +352,7 @@ button{
     background: #cdcdce;
     content: "";
 }
-.toTop-arrow::after{
+.to-top-arrow::after{
 	transform: rotate(45deg) translate(30%,-265%);
     right: 10px;
 }
