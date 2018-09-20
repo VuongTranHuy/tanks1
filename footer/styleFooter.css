@@ -5,7 +5,7 @@ body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	color: #646e7a;
+	color: #93a2ae;
 }
 html {
 	box-sizing: border-box;
@@ -196,7 +196,7 @@ ul li {
 
 }
 ul li a{
-	color: #646e7a;
+	color: #93a2ae;
 }
 ul li a:hover{
 	color: #2fc5b0;
@@ -214,7 +214,7 @@ input{
 	width: 210px;
 	background-color: #181828;
 	border: 1px solid #394050;
-	color:#494a59;
+	color:#3b3c4b;
 	padding-left: 15px;
 	text-align: left;
 	border-right: none;
@@ -231,6 +231,9 @@ input{
 }
 .span-star{
 	color: #2fc5b0;
+}
+.p-newsletter{
+	color: #3b3d4c;
 }
 .footer-item li{
 	display: flex;
