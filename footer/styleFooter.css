@@ -148,13 +148,11 @@ footer{
 	padding-top: 120px;
 	padding-bottom: 100px;
 }
-
+.footer-title{
+	color: #ffffff;
+}
 .footer-main{
 	margin-top: 45px;
-}
-}
-.triangle{
-	color: #ffffff;
 }
 .triangle::after{
 	content:" ";
