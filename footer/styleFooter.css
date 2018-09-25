@@ -307,6 +307,11 @@ p.align-center{
 	padding:15px 10px;
 	float: right;
 }
+.footer-coppyright i:hover{
+	background-color: #2fc5b0;
+	transition: 0.5s;
+	border-radius: 10px;
+}
 .to-top-arrow.show{
 	bottom: 1em;
     opacity: 0.6; 
