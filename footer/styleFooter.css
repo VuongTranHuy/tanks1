@@ -154,44 +154,50 @@ footer{
 .footer-main{
 	margin-top: 45px;
 }
+.triangle{
+	position: relative;
+}
 .triangle::after{
 	content:" ";
 	border-style: solid;
     border-width: 8px 0 0 8px;
     border-color: transparent transparent transparent #007bff;
     position: absolute;
-	/*--margin-left: 8px;
-    margin-top: 10px;--*/
-    transform: translate(100%,130%);
+	left: 105%;
+    top: 55%;
 }
 
 .img-logo-footer{
     padding-bottom: 50px;
     padding-top: 25px;
 }
-ul li .useful{
+.footer-menu li a::before{
+	content: "";
 	float: left;
 	width: 5px;
 	height: 5px;
 	margin-top: 7px;
 	background-color: #2fc5b0;
+	margin-right: 10px;
+    border-radius: 50%;
 }
-ul{
+
+.footer-menu{
 	list-style: none;
 	padding-left: 0;
 }
-ul li {
+.footer-menu li {
 	padding-bottom: 22px;
-
+	padding-left: 0;
 }
-ul li a{
+.footer-menu li a{
 	color: #93a2ae;
 }
-ul li a:hover{
+.footer-menu li a:hover{
 	color: #2fc5b0;
 	transition: 0.5s;
 }
-ul li:hover  .useful{
+.footer-menu .footer-menu-list a:hover::before {
 	background-color: #ffffff;
 	transition: 0.5s;
 }
@@ -220,8 +226,7 @@ input{
 	border-radius: 2px;
 }
 .button-email:hover{
-	background-color:blue;
-	transition:0.5s;
+	background-color: blue;
 }
 .span-star{
 	color: #2fc5b0;
@@ -230,12 +235,19 @@ input{
 	color: #3b3d4c;
 	padding-top: 10px;
 }
+.footer-item{
+	list-style: none;
+	padding-left: 0;
+}
 .footer-item li{
 	display: flex;
+	padding-bottom: 12px;
 }
-.item-radius{
+.footer-item .footer-item-list::before{
+	content: "";
 	border-radius: 50%;
 	height: 70px;
+	width: 120px;
 	margin-right: 10px;
 	background-color: #99a9b5;
 }
@@ -248,6 +260,10 @@ input{
 i.fa-comments{
 	text-align: center;
 	float: right;
+}
+i.fa-comments:hover{
+	color: #2fc5b0;
+	transition: 0.5s;
 }
 .footer-item li{
 	border-bottom: 1px solid #393d50;
@@ -262,11 +278,11 @@ i.fa-comments{
 	color: #2fc5b0;
 }
 .recentpost-date:hover{
-	color:#ffffff;
-	transition:0.5s;
+	color: #ffffff;
+	transition: 0.5s;
 }
-.post-time{
-	padding-top: 15px;
+.icon-date{
+	margin-top: 10px;
 }
 /* -----------------footer coppyright -----------------------*/
 .footer-coppyright{
@@ -355,22 +371,17 @@ button{
     border-radius: 5px;
 }
 .to-top-arrow::before, .to-top-arrow::after{
-	transform: rotate(-45deg) translate(0, -70%);
-    left: 25%;
+	transform: rotate(-45deg) translate(0, -50%);
+    left: 10px;
     position: absolute;
     top: 50%;
     width: 16px;
     height: 3px;
     border-radius: 3px;
-    background: #ffffff;
+    background: #cdcdce;
     content: "";
 }
 .to-top-arrow::after{
-	transform: rotate(45deg) translate(35%,-250%);
+	transform: rotate(45deg) translate(30%,-265%);
     right: 10px;
-}
-.to-top-arrow:hover{
-	background-color: #2fc5b0;
-	color: #ffffff;
-	transition: 0.5s;
 }
