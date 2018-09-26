@@ -218,6 +218,10 @@ input{
 	margin-left: -5px;
 	border-radius: 2px;
 }
+.button-email:hover{
+	background-color:blue;
+	transition:0.5s;
+}
 .span-star{
 	color: #2fc5b0;
 }
@@ -255,6 +259,9 @@ i.fa-comments{
 }
 .recentpost-date{
 	color: #2fc5b0;
+}
+.post-time{
+	padding-top: 15px;
 }
 /* -----------------footer coppyright -----------------------*/
 .footer-coppyright{
@@ -343,17 +350,22 @@ button{
     border-radius: 5px;
 }
 .to-top-arrow::before, .to-top-arrow::after{
-	transform: rotate(-45deg) translate(0, -50%);
+	transform: rotate(-45deg) translate(0, -70%);
     left: 10px;
     position: absolute;
     top: 50%;
     width: 16px;
     height: 3px;
     border-radius: 3px;
-    background: #cdcdce;
+    background: #ffffff;
     content: "";
 }
 .to-top-arrow::after{
-	transform: rotate(45deg) translate(30%,-265%);
+	transform: rotate(45deg) translate(35%,-250%);
     right: 10px;
+}
+.to-top-arrow:hover{
+	background-color: #2fc5b0;
+	color: #ffffff;
+	transition: 0.5s;
 }
