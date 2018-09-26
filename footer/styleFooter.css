@@ -261,6 +261,10 @@ i.fa-comments{
 .recentpost-date{
 	color: #2fc5b0;
 }
+.recentpost-date:hover{
+	color:#ffffff;
+	transition:0.5s;
+}
 .post-time{
 	padding-top: 15px;
 }
@@ -352,7 +356,7 @@ button{
 }
 .to-top-arrow::before, .to-top-arrow::after{
 	transform: rotate(-45deg) translate(0, -70%);
-    left: 10px;
+    left: 25%;
     position: absolute;
     top: 50%;
     width: 16px;
