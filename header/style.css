@@ -180,11 +180,12 @@ header{
 	margin-right: auto;
 	margin-left: 40px;
 	margin-right: 60px;
-	transform: translate(0 ,25%);
+	vertical-align: middle;
 }
 .icon-header i{
 	padding: 10px;
 }
+/*-----------------Slider---------------------*/
 .home-top-slider{
 	width: 100%;
 	margin: auto;
@@ -247,24 +248,28 @@ header{
     z-index: 11;
     background-color: #212331;
 }
+/*.flexslider a i{
+	font-size: 60px;
+	text-align: center;
+	color: #ffffff;
+}*/
 .flexslider a.pre{
 	left: 0;
 }
 .flexslider a.next{
 	right: 0;
 }
-.flexslider a.pre:after{
-	content: "\f060";
+.flexslider .pre:after{
+	content: "\f061";
     left: 10px;
     text-align: left;
 }
-.flexslider a.next:after{
-	content: "\f060";
+.flexslider .next:after{
+	content: "\f061";
     right: 10px;
     text-align: right;
 }
 .flexslider a:after{
-    font-family: FontAwesome;
     font-size: 50px;
     position: absolute;
     width: 50px;
