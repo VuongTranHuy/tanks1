@@ -176,8 +176,6 @@ header{
 	transition: 0.5s;
 }
 .logo-header{
-	margin-left: auto;
-	margin-right: auto;
 	margin-left: 40px;
 	margin-right: 60px;
 	vertical-align: middle;
@@ -249,9 +247,10 @@ header{
     background-color: #212331;
 }
 .flexslider a i{
-	font-size: 60px;
+	font-size: 25px;
 	text-align: center;
 	color: #ffffff;
+	padding: 25px;
 }
 .flexslider a.pre{
 	left: 0;
@@ -279,7 +278,7 @@ header{
 	content: "";
 	height: 48px;
 	width: 32px;
-	border: 2px solid #ffffff;
+	border: 3px solid #ffffff;
 	border-radius: 15px;
 	position: absolute;
 	bottom: 0;
@@ -290,7 +289,7 @@ header{
 	content: "";
 	height: 7px;
 	width: 2px;
-	border: 2px solid #ffffff;
+	border: 3px solid #ffffff;
 	border-radius: 5px;
 	position: absolute;
 	bottom: 35px;
