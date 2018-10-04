@@ -214,12 +214,11 @@ header{
 	color: #3c3950;
 }
 .home-top-slider .item-caption h4{
-	font-weight: 300;
+	font-weight: 350;
 	font-size: 30px;
 }
 .home-top-slider .item-caption h1{
-	font-weight: bold-1500;
-	font-size: 65px;
+	font-size: 80px;
 }
 .home-top-slider .item-caption button{
 	width: 250px;
@@ -228,7 +227,8 @@ header{
 	margin-left: 20px;
 	margin-right: 20px;
 	color: #3c3950;
-	font-weight: bold-700;
+	padding: 15px 35px;
+	font-weight: bold;
 	border: 2px solid #3c3950;
 	z-index: 12;
 }
