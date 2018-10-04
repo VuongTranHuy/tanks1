@@ -246,6 +246,14 @@ header{
     z-index: 11;
     background-color: #212331;
 }
+.flexslider a:hover{
+	background-color: #00bfa5;
+	transition: 0.5s;
+}
+.flexslider a i:hover{
+	color:  #212331;
+	transition: 0.5s;
+}
 .flexslider a i{
 	font-size: 25px;
 	text-align: center;
