@@ -300,9 +300,67 @@ header{
 
 </*------------End header-----------------*/>
 
-.footer{
-	background-color: #212331;
-}	
+</*-----------section-white--------------*/>
+.section{
+	width: 100%;
+}
+.section-white{
+	text-align: center;
+	font-family:'Montserrat', sans-serif;
+	padding: 100px;
+	background-color: #ffffff;
+	margin-bottom: 100px;
+}
+.section-white h4{
+	font-weight: 200;
+}
+.section-white .section-white-text{
+	padding-top: 65px;
+}
+</*---------end section-white---------*/>
+
+</*---------section-four-item---------*/>
+.section-four-item{
+	padding-bottom: 140px;
+	padding-top: 60px;
+}
+.section-four-item{
+	padding-bottom: 140px;	
+}
+.section-four-item .align-item{
+	font-size: 13px;
+	text-align: center;
+	padding-top: 80px;
+}
+.section-four-item .align-item{
+	font-size: 13px;
+	text-align: center;
+}
+.section-four-item .align-item i{
+	border-radius: 50%;
+	border: 1px solid #46485c;
+	height: 50px;
+	width: 50px;
+	padding:14px;
+	font-size: 20px;
+}
+.section-four-item .align-item:nth-child(1,2,3){
+	padding-top: 140px;
+}
+.section-four-item .align-item:nth-child(1,2,3){
+	padding-top: 140px;
+}
+</*---------------end section-four-item-------------*/>
+
+</*--------------section-blue-counter-------------*/>
+.section-blue-counter{
+	height: 300px;
+	background-color: green;
+}
+.section-blue-counter{
+	height: 300px;
+	background-color: green;
+}
 footer{
 	background-color: #212331;
 	color: #93a2ae
