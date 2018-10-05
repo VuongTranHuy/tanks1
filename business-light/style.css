@@ -219,6 +219,7 @@ header{
 	position: absolute;
 	z-index: 10;
 	padding-top: 415px;
+	padding-bottom: 400px;
 	color: #3c3950;
 }
 .home-top-slider .item-caption h4{
@@ -281,7 +282,7 @@ header{
 	border: 3px solid #ffffff;
 	border-radius: 15px;
 	position: absolute;
-	bottom: 0;
+	bottom: 65px;
 	left: 50%;
     transform: translate(-50%,0);
 }
@@ -292,7 +293,7 @@ header{
 	border: 3px solid #ffffff;
 	border-radius: 5px;
 	position: absolute;
-	bottom: 35px;
+	bottom: 9	5px;
 	left: 50%;
     transform: translate(-50%,0);
 }
@@ -497,6 +498,7 @@ p.align-center{
 	margin: auto;
 	padding:15px 10px;
 	float: right;
+	color: #99a9b5;
 }
 .footer-coppyright i:hover{
 	background-color: #2fc5b0;
