@@ -298,9 +298,9 @@ header{
     transform: translate(-50%,0);
 }
 
-</*------------End header-----------------*/>
+/*------------End header-----------------*/
 
-</*-----------section-white--------------*/>
+/*-----------section-white--------------*/
 .section{
 	width: 100%;
 }
@@ -317,24 +317,16 @@ header{
 .section-white .section-white-text{
 	padding-top: 65px;
 }
-</*---------end section-white---------*/>
-
-</*---------section-four-item---------*/>
+/*---------end section-white---------*/
+/*---------section-four-item---------*/
 .section-four-item{
 	padding-bottom: 140px;
 	padding-top: 60px;
-}
-.section-four-item{
-	padding-bottom: 140px;	
 }
 .section-four-item .align-item{
 	font-size: 13px;
 	text-align: center;
 	padding-top: 80px;
-}
-.section-four-item .align-item{
-	font-size: 13px;
-	text-align: center;
 }
 .section-four-item .align-item i{
 	border-radius: 50%;
@@ -350,16 +342,27 @@ header{
 .section-four-item .align-item:nth-child(1,2,3){
 	padding-top: 140px;
 }
-</*---------------end section-four-item-------------*/>
+/*---------------end section-four-item-------------*/
 
-</*--------------section-blue-counter-------------*/>
+/*--------------section-blue-counter-------------*/
 .section-blue-counter{
-	height: 300px;
-	background-color: green;
+	height: 280px;
+	background-color:#3e4353;
+}
+.section-blue-counter .number-count{
+	text-align: center;	
+	padding-top:100px;
+	padding-bottom: 90px;
+	color: #ececed;
+}
+.section-blue-counter .number-count h1{
+	color: #2fc5b0;
+	font-weight: extra-bold;
+	font-family: 'Montserrat', sans-serif;
 }
 .section-blue-counter{
 	height: 300px;
-	background-color: green;
+	background-color:#3e4353;
 }
 footer{
 	background-color: #212331;
