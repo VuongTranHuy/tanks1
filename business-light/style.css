@@ -533,7 +533,7 @@ button{
     user-select: none;
     white-space: nowrap;
     outline: none;
-    border-radius: 5px;
+    border-radius: 0px;
 }
 .to-top-arrow::before, .to-top-arrow::after{
 	transform: rotate(-45deg) translate(0, -50%);
