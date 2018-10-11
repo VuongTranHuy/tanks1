@@ -364,6 +364,404 @@ header{
 	height: 300px;
 	background-color:#3e4353;
 }
+/*-----end section-blue-counter----*/
+
+/*----section-choosing-us----*/
+.section-choosing-us{
+	background-color: #ffffff;
+}
+.section-choosing-us .col-img{
+	width: 50%
+}
+.section-choosing-us .col-img img{
+	margin-left: -60%	
+}
+.section-choosing-us .col-content{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 80px;
+}
+.section-choosing-us .col-content h2{
+	color: #3c3950;
+	word-spacing: 0.2em;
+	font-weight: bold;
+}
+.section-choosing-us .col-content i,.title{
+	color: 	#99a9b5;	
+	font-weight: 700;		
+}
+.section-choosing-us .col-content i{
+	color: #ffffff;
+	margin-right: 10px;
+}
+.fa-check-square{
+	background-color: #00bfa5;
+}
+.fa-check-square::before{
+	content: "\f14a";
+}
+.accordion .option{
+	clear: both;
+}
+.accordion .title:hover{
+	color: #2fc5b0;
+	transition: 0.5s;
+}
+.accordion .option-marketing,.option-commercial{
+	border-bottom: 1px dashed #99a9b5;
+}
+.accordion .option-commercial{
+	padding-top: 20px;
+}
+.accordion .option .ac-content p{
+	word-spacing: 0.2em;
+    padding: 15px;
+    font-size: 12px;
+}
+.accordion .option .ac-content ul{
+	display: inline-block;
+	padding-left: 0;
+}
+.list-tick-content{
+	width: 100%;
+	height: 200px;
+	border-bottom: 1px dashed #99a9b5;			
+}
+.accordion .option .ac-content .list-tick-left{
+	float: left;
+	clear: both;
+}
+.accordion .option .ac-content .list-tick-right{
+	float: right;
+}
+.accordion .option .ac-content ul li{
+	padding:12px;
+	color: #3c3950;
+}
+.accordion .option .ac-content ul li a{
+	color: #3c3950;
+}
+.all-ac{
+	display:none;
+}
+.option .title-setup{
+	color: #3c3950;
+}
+.option .title-setup i{
+	color: #3c3950;
+}
+.title,
+.ac-content {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: all 0.2s;
+}
+.title {
+  background: #fff;
+  padding: 1em;
+  display: block;
+  font-weight: bold;
+}
+.title::after{
+  content: '\002B';
+  position: absolute;
+  right: 0;
+  top: 1.05em;
+  width: 2px;
+  height: 0.75em;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+.title::after {
+  transform: rotate(90deg);
+}
+
+.ac-content {
+  max-height: 0;
+  overflow: visible;
+  background-color: #fff;
+  p {
+    margin: 0;
+    padding: 0.5em 1em 1em;
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+}
+
+.all-ac::checked {
+  & + .title,
+  & + .title + .ac-content {
+    box-shadow: 3px 3px 6px #ddd, -3px 3px 6px #ddd;
+  }
+  & + .title + .ac-content {
+    max-height: 500px;
+  }
+  & + .title::before {
+    transform: rotate(90deg) !important;
+  }
+}
+
+/*-------end section-choosing-us-----*/
+
+/*------section section-buy-now-----*/
+.section-buy-now{
+	background-color: #2fc5b0;
+}
+.section-buy-now .section-buy-now-inner{
+	display: flex;
+	padding-top: 65px;
+	padding-bottom: 65px;
+	justify-content: space-between;
+}
+.section-buy-now .section-buy-now-inner .about-content{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin: auto;
+	padding-left: 65px;
+	padding-right: 85px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.section-buy-now .section-buy-now-inner a{
+	border: 2px solid #ffffff;
+	text-align: center;
+	margin: auto;
+	padding: 15px 25px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.section-buy-now .section-buy-now-inner a:hover{
+	background-color: #f0f3f2;
+	transition: 0.5s;
+	color: #2fc5b0;
+}
+/*-------end section-buy-now------*/
+
+/*------section-studies--------*/
+.section-studies{
+	background-color: #ffffff;	
+	text-align: center;
+	padding: 120px 0;
+	font-size: 12px;
+}
+.section-studies h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+.section-studies p{
+	padding-top: 70px;
+	font-family: 
+}
+/*------end section-studies--------*/
+
+/*-----section-slider-inner-----*/
+.section-slider-inner{
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+	position: relative;
+	background-color: #ffffff;
+	margin-bottom: -20px;
+}
+.section-slider-inner img{
+	max-width: 100%;
+	padding: 0 7.5px;
+}
+.section-slider-inner a {
+	background-color: #b6c6c9;
+	height: 80px;
+	width: 80px;
+	top: 50%;
+	transform: translate(0 ,-33%);
+	position: absolute;
+}
+.section-slider-inner a:hover{
+	background-color: #2fc5b0;
+	transition: 0.5s;
+}
+.section-slider-inner a.pre{
+	left: 0;
+}
+.section-slider-inner a.next{
+	right: 0;
+}
+.section-slider-inner i{
+	font-size: 40px;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px;
+}
+.section-slider-inner i:hover{
+	color: #222827;
+	transition: 0.5s;
+}
+/*-----end section-slider-inner-----*/
+
+/*----------section-core-competence----*/
+.section-core-competence{
+	text-align: center;
+	background-color: #ffffff;	
+}
+.section-core-competence h1{
+	padding-top: 110px;
+	padding-bottom: 90px;
+	font-weight: 200;
+	font-family: 'Montserrat', sans-serif;
+}
+.section-core-competence .col-item{
+	text-align: center;
+	margin: auto;
+	padding: 80px 0;
+	font-family: 'Montserrat', sans-serif;
+}
+.section-core-competence .col-item:nth-child(odd){
+	background-color: #e5ebe9;
+}
+.section-core-competence .col-item:nth-child(even){
+	background-color: #d3ddda;
+}
+.section-core-competence .col-item i{
+	padding-bottom: 25px;
+}
+.section-core-competence .col-6-item{
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-top: 60px;
+	padding-bottom: 200px;
+}
+.section-core-competence .col-left{
+	padding-right: 15px;
+}
+.section-core-competence .col-right{
+	padding-left: 15px;
+}
+
+/*----------end section-core-competence----*/
+
+/*------SECTION-ABOUT-US-------*/
+.section-about-us{
+	background-color: #f0f3f2;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	position: relative;
+}
+.section-about-us .container{
+	padding-top: 125px;
+}
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding-top: 4px;
+    border: none;
+    border-top: medium double #dee2e5;
+    color: #dee2e5;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "CUSTOMERS ABOUT US";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 1em;
+    background:#f0f3f2;
+    padding: 0 20px;
+    color: #3c3950;
+}
+.section-about-us h4{
+	color: #2fc5b0;
+	padding-top: 90px;
+}
+.section-about-us h4:before{
+	content: "";
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	background-color: #b6c6c9;
+	display: block;
+	margin: auto;
+	margin-bottom: 60px;
+}
+.section-about-us span{
+	color: #99a9b5;
+	padding-top: 15px;
+	padding-bottom: 38px;
+}
+.section-about-us p{
+	padding: 40px 160px;
+	color: #3c3950;
+	font-size: 14px;
+}
+.section-about-us img{
+	padding-bottom: 120px;
+}
+.section-about-us .fa-arrow-left{
+	left: 0;
+	top: 50%;
+	font-size: 32px;
+	position: absolute;
+}
+.section-about-us .fa-arrow-right{
+	right: 0;
+	top: 50%;
+	font-size: 32px;
+	position: absolute;
+}
+/*------END SECTION-ABOUT-US-------*/
+
+/*-------section-our-teams------*/
+.section-our-teams{
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 110px;
+	color:#3c3950;
+}
+.section-our-teams .flex-container{
+	display: flex;
+}
+.section-our-teams .flex-container .name-person{
+	text-align: center;
+	padding: 100px 0;
+}
+.section-our-teams .flex-container .name-person h4{
+	color: #00bfa5;
+}
+.section-our-teams .flex-container .name-person h4:before{
+	content: "";
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	background-color: #b6c6c9;
+	display: block;
+	margin: auto;
+	margin-bottom: 60px;
+}
+.section-our-teams .flex-container .name-person .regency{
+	color: #b0bcc5;
+	padding-top: 17px;
+	padding-bottom: 45px;
+}
+.section-our-teams .flex-container .name-person .review{
+	color: #5f727f;
+	font-size: 13px;
+}
+.section-our-teams .flex-container .name-person .icon-contact{
+	padding-top: 35px;
+	padding-bottom: 120px;
+}
+.section-our-teams .flex-container .name-person .icon-contact i{
+	border-radius: 50%;
+	font-size: 25px;
+	padding:0 15px;
+}
+.section-our-teams .flex-container .emerson{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
 footer{
 	background-color: #212331;
 	color: #93a2ae
