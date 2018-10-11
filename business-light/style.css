@@ -390,7 +390,6 @@ header{
 	font-weight: 700;		
 }
 .section-choosing-us .col-content i{
-	color: #ffffff;
 	margin-right: 10px;
 }
 .fa-check-square{
@@ -709,6 +708,10 @@ header{
 	font-size: 32px;
 	position: absolute;
 }
+.section-about-us .fa-arrow-right:hover,.fa-arrow-left:hover{
+	color: #00bfa5;
+	transition: 0.5s;
+}
 /*------END SECTION-ABOUT-US-------*/
 
 /*-------section-our-teams------*/
@@ -839,8 +842,9 @@ header{
 .secttion-latest-news .container .admin-post .post-number-right i{
 	color: #99a9b5;
 }
-.secttion-latest-news .container .admin-post .post-number-right i:hover{
+.secttion-latest-news .container .admin-post .post-number-right i.fas:hover{
 	color: #00bfa5;
+	transition: 0.5s;
 }
 .secttion-latest-news .container .admin-post .post-number-right i.fa-comment{
 	padding-right: 10px;
@@ -855,19 +859,29 @@ header{
 .secttion-latest-news .container .move{
 	padding-bottom: 95px;
 }
+.secttion-latest-news .container .move i{
+	color: black;
+    margin: auto;
+    padding: 6px 11px;
+    font-size: 20px;
+}
+.secttion-latest-news .container .move i:hover{
+	color: #00bfa5;
+	transition: 0.5s;
+}
 .secttion-latest-news .container a.left,a.right{
 	height: 30px;
 	width: 30px;
 	background-color: #212331;
 	position: absolute;
 }
+.secttion-latest-news .container a.left:hover,a.right:hover{
+	background-color: #ffffff;
+	transition: 0.5s;
+}
 .secttion-latest-news .container a.right{
 	transform: translate(110%,0);
 	margin-left: 8px;
-}
-.secttion-latest-news .container i.fa-arrow-left,i.fa-arrow-right{
-	color: #ffffff;
-	padding: 8px;
 }
 .secttion-latest-news .col-list-item{
 	height: 100%;
